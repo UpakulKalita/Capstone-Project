@@ -1,7 +1,7 @@
 # SME Loan Pre-Screen: Right-First-Time Application
 
 ## Project Overview
-This web application is a prototype for the Bank's "Right-First-Time" program[cite: 5]. The goal is to optimize the loan screening process by ensuring customers submit complete applications[cite: 9].
+This web application is a prototype for the Bank's "Right-First-Time" program. The goal is to optimize the loan screening process by ensuring customers submit complete applications[cite: 9].
 
 Currently, partial document submission leads to slow processing or rejection[cite: 4]. This tool helps pre-screen customers based on SME classification and document availability before the actual credit underwriting process begins[cite: 11].
 
