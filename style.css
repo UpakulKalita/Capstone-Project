@@ -1,0 +1,59 @@
+/* My styles for the project */
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* box styles for document lists */
+.box {
+    background: white;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.head {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* colors for headers */
+.kyc-box .head { background: #ffebeb; color: darkred; }
+.inc-box .head { background: #e6ffed; color: darkgreen; }
+.biz-box .head { background: #eaf4ff; color: darkblue; }
+
+.content {
+    padding: 10px;
+}
+
+.item {
+    padding: 8px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #fafafa;
+}
+
+/* active classes when clicked */
+.active-kyc { background-color: #ffebeb; border: 1px solid pink; }
+.active-inc { background-color: #e6ffed; border: 1px solid lightgreen; }
+.active-biz { background-color: #eaf4ff; border: 1px solid lightblue; }
+
+/* Status card colors */
+.status-red { border-top: 5px solid red; background: #fff5f5; }
+.status-green { border-top: 5px solid green; background: #f0fff4; }
+.status-yellow { border-top: 5px solid orange; background: #fffaf0; }
+.status-blue { border-top: 5px solid blue; background: #f0f7ff; }
+.status-gray { border-top: 5px solid gray; }
